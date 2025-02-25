@@ -1,0 +1,30 @@
+header {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #FFFF;
+    padding-bottom: 10px;
+  }
+  
+  header div button {
+    margin-right: 10px;
+  }
+
+.login-btn {
+    padding: 10px 30px;
+    margin-right: 30px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+} 
+
+.signup-btn {
+    background: none;
+    border: none;
+
+}
+
+

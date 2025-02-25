@@ -1,0 +1,50 @@
+.genre-layout{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #FFFF;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.movie-cover{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.movie-list{
+    display: flex;
+    gap: 20px;
+}
+
+.movie-items{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    
+}
+
+.movie-items-bottom h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.movie-details h3{
+   
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+div h1 {
+    font-size: 20px;
+    
+}
+div h2 {
+    font-size: 15px;
+}
+
+div h3{
+    font-size: 12px;
+}
