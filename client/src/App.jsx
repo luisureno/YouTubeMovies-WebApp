@@ -15,14 +15,16 @@ function App() {
   })
 
   return (
-    <>
-      <Header />
-      <SearchBar />  
-      <main className='container'>
-        {movieElements}
-      </main>
-      
-    </>
+    
+      <div>
+        
+        <Header />
+        <SearchBar />  
+        <main className='container'>
+          {movieElements}
+        </main>
+          
+      </div>
       
   )
 }
